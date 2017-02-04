@@ -11,5 +11,5 @@ try:
 
     print("Key:", root, "---> Value:", dicc[root])
     print(dicc[imaginario])
-except: #cualquier excepcion (no se debe indicar un accion para cualquier excepcion)
-    print("No existe la key", imaginario, "en este diccionario")
+except KeyError: 
+    print("No existe esa key en este diccionario")
